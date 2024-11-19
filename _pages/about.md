@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a researcher at Guangdong University of Technology, focusing on Text-to-SQL, Large Language Models, Sentiment Analysis, and Machine Learning. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+I am a researcher at Guangdong University of Technology, working in the **DMIR Lab** under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models**, **Sentiment Analysis**, and **Machine Learning**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
 
 My research interests include:
 
@@ -27,6 +27,7 @@ My research interests include:
 - **Machine Learning:** Applying machine learning techniques to solve complex problems across different domains.
 
 I have published several papers in top-tier conferences and journals. You can find my publications and citation metrics on my [Google Scholar profile](https://scholar.google.com/citations?user=AMUlDdEAAAAJ&hl=en).
+
 
 # 🔥 News
 - *2024.07*: &nbsp;🎉🎉 I am the problem setter for the **2024 Third International Algorithm Case Competition (IACC)**, hosted by Pazhou Lab. The challenge I designed focuses on **"Generating Database Query Commands Based on Large Language Models"**. The competition is currently underway with a total prize pool of 500,000 RMB. ([Learn more](https://iacc.pazhoulab-huangpu.com/contestdetail?id=668de12c7ff47da8cc88c0ce&award=500,000+%E7%BB%8F%E8%B4%B9%E6%94%AF%E6%8C%81))
