@@ -31,17 +31,15 @@ I have published several papers in top-tier conferences and journals. You can fi
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/paper_img.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
-[SADGA: Structure-aware dual graph aggregation network for text-to-sql](https://proceedings.neurips.cc/paper/2021/file/1e4d2b8b0d4e1b1b1e4d2b8b0d4e1b1b-Paper.pdf)
+[S^2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis](https://arxiv.org/abs/2406.02902)
 
-**Ruichu Cai**, Jiaqi Yuan, **Boyan Xu**, Zhifeng Hao
+Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao
 
-- Introduced a dual graph aggregation network that leverages structural information for improved Text-to-SQL parsing.
-- Cited by 60 as of November 2024.
-
+-  Incorporating Segment to Syntactic enhanced Graph Structure Learning for ABSA
 
 </div>
 </div>
