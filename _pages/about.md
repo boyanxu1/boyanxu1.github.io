@@ -49,7 +49,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao
 </div>
 
 - SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu#**, Ruichu Cai, JMLC
-- [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, and Zhengting Huang, Ruichu Cai#, ICIC 2024
+- [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai#, ICIC 2024
 - [SADGA: Structure-aware dual graph aggregation network for text-to-sql](https://proceedings.neurips.cc/paper_files/paper/2021/file/3f1656d9668dffcf8119e3ecff873558-Paper.pdf), Ruichu Cai, Jinjie Yuan, **Boyan Xu#**, Zhifeng Hao,  NeurIPS 2021
 - [Causal mechanism transfer network for time series domain adaptation in mechanical systems](https://dl.acm.org/doi/abs/10.1145/3445033), Zijian Li, Ruichu Cai, Hong Wei Ng, Marianne Winslett, Tom ZJ Fu, **Boyan Xu**, Xiaoyan Yang, Zhenjie Zhang, TIST
 - [Semi-supervised disentangled framework for transferable named entity recognition](https://arxiv.org/pdf/2012.11805), Zhifeng Hao, Di Lv, Zijian Li, Ruichu Cai, Wen Wen, **Boyan Xu**, Neural Networks
