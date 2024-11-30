@@ -47,7 +47,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao 
 
 </div>
 </div>
-- Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification, Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, Boyan Xu#, Keli Zhang
+- Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification, Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, Boyan Xu#, Keli Zhang (COLING 2025)
 - CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction, Bingfeng Chen, Haoran Xu, Yongqi Luo, Boyan Xu#, Ruichu Cai, Zhifeng Hao (COLING 2025)
 - SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu#**, Ruichu Cai (JMLC)
 - [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai# (ICIC 2024)
