@@ -48,6 +48,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao 
 </div>
 </div>
 - Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models，**Boyan Xu**, Yuyuan Cai, Shaobin Shi, Zhifeng Hao, Ruichu Cai# (ICDE 2025 Demo) 
+- TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation, Ranmin Wang, Limin Zhuang, Hongkun Chen, Boyan Xu#, Ruichu Cai (Preprint)
 - Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification, Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, **Boyan Xu#**, Keli Zhang (COLING 2025)
 - CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction, Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao (COLING 2025)
 - SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu#**, Ruichu Cai (JMLC)
