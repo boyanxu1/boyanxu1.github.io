@@ -34,29 +34,29 @@ I have published several papers in top-tier conferences and journals. You can fi
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
 
 # 📝 Publications 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/paper_img.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
 [S^2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis](https://arxiv.org/abs/2406.02902)
 
-Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao (ACL 2024 Main)
+Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (ACL 2024 Main)
 
 -  Incorporating Segment to Syntactic enhanced Graph Structure Learning for ABSA
 
 </div>
 </div>
-- Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models，**Boyan Xu**, Yuyuan Cai, Shaobin Shi, Zhifeng Hao, Ruichu Cai# (ICDE 2025 Demo) 
-- TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation, Ranmin Wang, Limin Zhuang, Hongkun Chen, Boyan Xu#, Ruichu Cai (Preprint)
-- Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification, Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, **Boyan Xu#**, Keli Zhang (COLING 2025)
-- CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction, Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu#**, Ruichu Cai, Zhifeng Hao (COLING 2025)
-- SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu#**, Ruichu Cai (JMLC)
-- [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai# (ICIC 2024)
-- [SADGA: Structure-aware dual graph aggregation network for text-to-sql](https://proceedings.neurips.cc/paper_files/paper/2021/file/3f1656d9668dffcf8119e3ecff873558-Paper.pdf), Ruichu Cai, Jinjie Yuan, **Boyan Xu#**, Zhifeng Hao (NeurIPS 2021)
+†Corresponding Author
+- Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models，**Boyan Xu**, Yuyuan Cai, Shaobin Shi, Zhifeng Hao, Ruichu Cai (ICDE 2025 Demo) 
+- TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation, Ranmin Wang, Limin Zhuang, Hongkun Chen, **Boyan Xu†**, Ruichu Cai (Preprint)
+- Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification, Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, **Boyan Xu†**, Keli Zhang (COLING 2025)
+- CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction, Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (COLING 2025)
+- SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu†**, Ruichu Cai (JMLC)
+- [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai (ICIC 2024)
+- [SADGA: Structure-aware dual graph aggregation network for text-to-sql](https://proceedings.neurips.cc/paper_files/paper/2021/file/3f1656d9668dffcf8119e3ecff873558-Paper.pdf), Ruichu Cai, Jinjie Yuan, **Boyan Xu†**, Zhifeng Hao (NeurIPS 2021)
 - [Causal mechanism transfer network for time series domain adaptation in mechanical systems](https://dl.acm.org/doi/abs/10.1145/3445033), Zijian Li, Ruichu Cai, Hong Wei Ng, Marianne Winslett, Tom ZJ Fu, **Boyan Xu**, Xiaoyan Yang, Zhenjie Zhang (TIST)
 - [Semi-supervised disentangled framework for transferable named entity recognition](https://arxiv.org/pdf/2012.11805), Zhifeng Hao, Di Lv, Zijian Li, Ruichu Cai, Wen Wen, **Boyan Xu** (Neural Networks)
-- [Meta Multi-Task Learning for Speech Emotion Recognition](http://www.interspeech2020.org/uploadfile/pdf/Wed-3-8-8.pdf), Ruichu Cai, Kaibin Guo, **Boyan Xu#**, Xiaoyan Yang, Zhenjie Zhang (Interspeech 2020)
-- [TAG: Type auxiliary guiding for code comment generation](https://aclanthology.org/2020.acl-main.27.pdf), Ruichu Cai, Zhihao Liang, **Boyan Xu#**, Zijian Li, Yuixing Hao, Yao Chen (ACL 2020)
+- [Meta Multi-Task Learning for Speech Emotion Recognition](http://www.interspeech2020.org/uploadfile/pdf/Wed-3-8-8.pdf), Ruichu Cai, Kaibin Guo, **Boyan Xu†**, Xiaoyan Yang, Zhenjie Zhang (Interspeech 2020)
+- [TAG: Type auxiliary guiding for code comment generation](https://aclanthology.org/2020.acl-main.27.pdf), Ruichu Cai, Zhihao Liang, **Boyan Xu†**, Zijian Li, Yuixing Hao, Yao Chen (ACL 2020)
 - [An encoder-decoder framework translating natural language to database queries](https://www.ijcai.org/proceedings/2018/0553.pdf), Ruichu Cai, **Boyan Xu**, Xiaoyan Yang, Zhenjie Zhang, Zijian Li, Zhihao Liang (IJCAI 2018)
 - [Data driven chiller plant energy optimization with domain knowledge](https://arxiv.org/abs/1812.00679), Hoang Dung Vu, Kok Soon Chai, Bryan Keating, Nurislam Tursynbek, **Boyan Xu**, Kaige Yang, Xiaoyan Yang, Zhenjie Zhang (CIKM 2017)
