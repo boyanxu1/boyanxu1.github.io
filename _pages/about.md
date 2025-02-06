@@ -50,7 +50,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 
 </div>
 </div>
-†Corresponding Author
+†Corresponding Author, *Equal Contribution
 - Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation, Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao (NAACL Main)
 - Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL, Bingfeng chen, Shaobin Shi, yongqi luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (NAACL Main)
 - S^2IT: Stepwise Syntax Integration Tuning for Large Language Models in Aspect Sentiment Quad Prediction, Bingfeng chen, Chenjie Qiu, Yifeng Xie, c, Ruichu Cai, Zhifeng Hao (NAACL Findings)
@@ -65,5 +65,6 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 - [Semi-supervised disentangled framework for transferable named entity recognition](https://arxiv.org/pdf/2012.11805), Zhifeng Hao, Di Lv, Zijian Li, Ruichu Cai, Wen Wen, **Boyan Xu** (Neural Networks)
 - [Meta Multi-Task Learning for Speech Emotion Recognition](http://www.interspeech2020.org/uploadfile/pdf/Wed-3-8-8.pdf), Ruichu Cai, Kaibin Guo, **Boyan Xu†**, Xiaoyan Yang, Zhenjie Zhang (Interspeech 2020)
 - [TAG: Type auxiliary guiding for code comment generation](https://aclanthology.org/2020.acl-main.27.pdf), Ruichu Cai, Zhihao Liang, **Boyan Xu†**, Zijian Li, Yuixing Hao, Yao Chen (ACL 2020)
+- [Disentanglement Challenge: From Regularization to Reconstruction](https://arxiv.org/pdf/1912.00155), Jie Qiao*, Zijian Li*, **Boyan Xu***, Ruichu Cai, Kun Zhang
 - [An encoder-decoder framework translating natural language to database queries](https://www.ijcai.org/proceedings/2018/0553.pdf), Ruichu Cai, **Boyan Xu**, Xiaoyan Yang, Zhenjie Zhang, Zijian Li, Zhihao Liang (IJCAI 2018)
 - [Data driven chiller plant energy optimization with domain knowledge](https://arxiv.org/abs/1812.00679), Hoang Dung Vu, Kok Soon Chai, Bryan Keating, Nurislam Tursynbek, **Boyan Xu**, Kaige Yang, Xiaoyan Yang, Zhenjie Zhang (CIKM 2017)
