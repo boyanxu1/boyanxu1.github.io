@@ -51,6 +51,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 </div>
 </div>
 †Corresponding Author, *Equal Contribution
+- [Leveraging Constrained Monte Carlo Tree Search to Generate Reliable Long Chain-of-Thought for Mathematical Reasoning](https://arxiv.org/abs/2502.11169), Qingwen Lin, Boyan Xu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Work in Progress)
 - Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation, Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao (NAACL Main)
 - Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL, Bingfeng chen, Shaobin Shi, yongqi luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (NAACL Main)
 - S^2IT: Stepwise Syntax Integration Tuning for Large Language Models in Aspect Sentiment Quad Prediction, Bingfeng chen, Chenjie Qiu, Yifeng Xie, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (NAACL Findings)
