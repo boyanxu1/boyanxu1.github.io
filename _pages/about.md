@@ -51,6 +51,8 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 </div>
 </div>
 †Corresponding Author, *Equal Contribution
+- Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism, Ruichu Cai, Kaitao Zheng, Zijian Li, Junxian Huang, Zhengming Chen, **Boyan Xu**, Zhifeng Hao (IJCAI 2025)
+- Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting, Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025)
 - PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness, Zhifeng Hao, Yuyuan Cai, Shaobin Shi, **Boyan Xu†**, Ruichu Cai (IJCNN 2025)
 - [Leveraging Constrained Monte Carlo Tree Search to Generate Reliable Long Chain-of-Thought for Mathematical Reasoning](https://arxiv.org/abs/2502.11169), Qingwen Lin, Boyan Xu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Work in Progress)
 - Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation, Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao (NAACL 2025 Main)
