@@ -64,7 +64,7 @@ Bingfeng chen, Shaobin Shi, yongqi luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025 (Findings)</div><img src='images/2025_NAACL_S2IT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Findings)</div><img src='images/2025_NAACL_S2IT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [S^2IT: Stepwise Syntax Integration Tuning for Large Language Models in Aspect Sentiment Quad Prediction](https://aclanthology.org/2025.findings-naacl.379.pdf)
 
@@ -74,6 +74,30 @@ Bingfeng chen, Chenjie Qiu, Yifeng Xie, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2025(Oral)</div><img src='images/2025_COLING_DRECI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification](https://aclanthology.org/2025.coling-main.628.pdf)
+
+Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, **Boyan Xu†**, Keli Zhang
+
+-  We propose Dr.ECI, a multi-agent decomposed reasoning framework for Event Causality Identification that employs specialized discovery agents (Causal Explorer, Mediator Detector) and reasoning agents (Direct and Indirect Reasoners) to capture implicit, indirect, and generalized causal structures, achieving state-of-the-art performance.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2025(Oral)</div><img src='images/2025_COLING_CACA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction](https://aclanthology.org/2025.coling-main.635.pdf)
+
+Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
+
+-  We propose CACA, an extractive ASQP framework that employs a Context-Aware Cross-Attention Network—alternating updates of explicit and implicit representations—and contrastive learning to align aspects and opinions for implicit term prediction, achieving superior results on three benchmarks.
+
+</div>
+</div>
+
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(Main)</div><img src='images/2024_ACL_S2GSL.png' alt="sym" width="100%"></div></div>
@@ -93,14 +117,8 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 - Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting, Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025)
 - PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness, Zhifeng Hao, Yuyuan Cai, Shaobin Shi, **Boyan Xu†**, Ruichu Cai (IJCNN 2025)
 - [Leveraging Constrained Monte Carlo Tree Search to Generate Reliable Long Chain-of-Thought for Mathematical Reasoning](https://arxiv.org/abs/2502.11169), Qingwen Lin, Boyan Xu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Work in Progress)
-- [Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation](https://aclanthology.org/2025.naacl-long.540.pdf), Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao (NAACL 2025 Main)
-- [Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL](https://aclanthology.org/2025.naacl-long.536.pdf), Bingfeng chen, Shaobin Shi, yongqi luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (NAACL 2025 Main)
-- [S^2IT: Stepwise Syntax Integration Tuning for Large Language Models in Aspect Sentiment Quad Prediction](https://aclanthology.org/2025.findings-naacl.379.pdf), Bingfeng chen, Chenjie Qiu, Yifeng Xie, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (NAACL 2025 Findings)
 - Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models，**Boyan Xu** *, **Yuyuan Cai** *, Shaobin Shi, Zhifeng Hao, Ruichu Cai (ICDE 2025 Demo) 
 - [TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation](https://arxiv.org/pdf/2411.11305), Ranmin Wang, Limin Zhuang, Hongkun Chen, **Boyan Xu†**, Ruichu Cai (Preprint)
-- [Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification](https://aclanthology.org/2025.coling-main.628.pdf), Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen, **Boyan Xu†**, Keli Zhang (COLING 2025)
-- [CACA: Context-Aware Cross-Attention Network for Extractive Aspect Sentiment Quad Prediction](https://aclanthology.org/2025.coling-main.635.pdf), Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (COLING 2025)
-- [S^2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis](https://arxiv.org/abs/2406.02902), Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (ACL 2024 Main)
 - SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization, Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu†**, Ruichu Cai (JMLC)
 - [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai (ICIC 2024)
 - [SADGA: Structure-aware dual graph aggregation network for text-to-sql](https://proceedings.neurips.cc/paper_files/paper/2021/file/3f1656d9668dffcf8119e3ecff873558-Paper.pdf), Ruichu Cai, Jinjie Yuan, **Boyan Xu†**, Zhifeng Hao (NeurIPS 2021)
