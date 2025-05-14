@@ -53,9 +53,30 @@ Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Main)</div><img src='images/2025_NAACL_TRACKSQL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL](https://aclanthology.org/2025.naacl-long.536.pdf)
+
+Bingfeng chen, Shaobin Shi, yongqi luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
+
+-  We propose Track-SQL, a dual-extractive framework that augments generative LMs with a semantic-enhanced schema extractor and a schema-aware context extractor to track schema and context changes in multi-turn Text-to-SQL, achieving state-of-the-art results on SparC and CoSQL with execution accuracy gains of 7.1% and 9.55%.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025 (Findings)</div><img src='images/2025_NAACL_S2IT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[S^2IT: Stepwise Syntax Integration Tuning for Large Language Models in Aspect Sentiment Quad Prediction](https://aclanthology.org/2025.findings-naacl.379.pdf)
+
+Bingfeng chen, Chenjie Qiu, Yifeng Xie, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
+
+-  We propose S^2IT, a novel Stepwise Syntax Integration Tuning framework that progressively incorporates global and local syntactic structure knowledge into LLMs to significantly enhance performance on Aspect Sentiment Quad Prediction.
+
+</div>
+</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/2024_ACL_S2GSL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(Main)</div><img src='images/2024_ACL_S2GSL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -63,7 +84,7 @@ Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao
 
 Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao (ACL 2024 Main)
 
--  Incorporating Segment to Syntactic enhanced Graph Structure Learning for ABSA
+-  We introduce S^2GSL, a novel graph-structure learning framework for ABSA that combines segment-aware semantic graph learning with syntax-based latent graph learning—and a self-adaptive aggregation network to filter irrelevant contexts and fuse diverse structures—achieving superior results on four benchmarks.
 
 </div>
 </div>
