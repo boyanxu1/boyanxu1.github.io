@@ -40,7 +40,7 @@ I have published several papers in top-tier conferences and journals. You can fi
 # 📝 Publications 
 †Corresponding Author, *Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/ps2gsl_img.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/s2gsl_img.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
