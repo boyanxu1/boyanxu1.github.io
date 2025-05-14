@@ -17,16 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a researcher at Guangdong University of Technology, working in the **DMIR Lab** under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models**, **Sentiment Analysis**, and **Machine Learning**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+I am a researcher at Guangdong University of Technology, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Sentiment Analysis**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
 
 My research interests include:
 
 - **Text-to-SQL:** Developing models that translate natural language queries into SQL statements, facilitating intuitive database interactions.
 - **Large Language Models:** Exploring the capabilities and applications of large-scale language models in various NLP tasks.
 - **Sentiment Analysis:** Analyzing and interpreting human emotions and opinions through computational methods.
-- **Machine Learning:** Applying machine learning techniques to solve complex problems across different domains.
 
-I have published several papers in top-tier conferences and journals. You can find my publications and citation metrics on my [Google Scholar profile](https://scholar.google.com/citations?user=AMUlDdEAAAAJ&hl=en).
+I am always keen to collaborate with motivated students and industry partners on Text‑to‑SQL agents, causal LLMs and ABSA. Drop me an email with your CV and a short statement of interest.
 
 
 # 🔥 News
@@ -96,8 +95,6 @@ Bingfeng Chen, Haoran Xu, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Hao
 
 </div>
 </div>
-
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(Main)</div><img src='images/2024_ACL_S2GSL.png' alt="sym" width="100%"></div></div>
