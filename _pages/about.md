@@ -40,7 +40,22 @@ I have published several papers in top-tier conferences and journals. You can fi
 # 📝 Publications 
 †Corresponding Author, *Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/s2gsl_img.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Main)</div><img src='images/2025_NAACL_IRRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+[Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation](https://aclanthology.org/2025.naacl-long.540.pdf)
+
+Ruichu Cai, Junhao Lu, Zhongjie Chen, **Boyan Xu†**, Zhifeng Hao
+
+-  We introduce IRRA, a novel two-stage framework that first uses recall-augmented entity extraction on perturbed data to boost recall and then applies retrieval-augmented generation for type correction, achieving state-of-the-art zero-shot cross-domain NER performance.
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024(main)</div><img src='images/2024_ACL_S2GSL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
