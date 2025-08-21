@@ -29,6 +29,7 @@ I am always keen to collaborate with motivated students and industry partners on
 
 
 # 🔥 News
+- *2025.08*: &nbsp;🎉🎉 GenLink have been accepted by EMNLP 2025 Main.
 - *2025.01*: &nbsp;🎉🎉 3 papers under my supervision have been accepted by NAACL 2025.
 - *2025.01*: &nbsp;🎉🎉 Chat2DB have been accepted by ICDE 2025 Demo track.
 - *2024.11*: &nbsp;🎉🎉 2 papers under my supervision have been accepted by COLING 2025.
