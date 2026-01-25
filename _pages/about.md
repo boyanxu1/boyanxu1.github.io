@@ -23,12 +23,14 @@ My research interests include:
 
 - **Text-to-SQL:** Developing models that translate natural language queries into SQL statements, facilitating intuitive database interactions.
 - **Large Language Models:** Exploring the capabilities and applications of large-scale language models in various NLP tasks.
-- **Sentiment Analysis:** Analyzing and interpreting human emotions and opinions through computational methods.
+- **Affective Computing:** Analyzing and interpreting human emotions and opinions through computational methods.
 
 I am always keen to collaborate with motivated students and industry partners on Text‑to‑SQL agents, causal LLMs and ABSA. Drop me an email with your CV and a short statement of interest.
 
 
 # 🔥 News
+- *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
+- *2025.11*: &nbsp;🎉🎉 DSQ-SQL ranks 3rd on the Spider 2.0-Lite leaderboard and has been open-sourced.
 - *2025.08*: &nbsp;🎉🎉 GenLink have been accepted by EMNLP 2025 Main.
 - *2025.01*: &nbsp;🎉🎉 3 papers under my supervision have been accepted by NAACL 2025.
 - *2025.01*: &nbsp;🎉🎉 Chat2DB have been accepted by ICDE 2025 Demo track.
