@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a researcher at Guangdong University of Technology, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Sentiment Analysis**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+I am a researcher at Guangdong University of Technology, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Affective Computing**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
 
 My research interests include:
 
