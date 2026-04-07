@@ -29,6 +29,7 @@ I am always keen to collaborate with motivated students and industry partners on
 
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
 - *2025.11*: &nbsp;🎉🎉 DSQ-SQL ranks 3rd on the Spider 2.0-Lite leaderboard and has been open-sourced.
 - *2025.08*: &nbsp;🎉🎉 GenLink have been accepted by EMNLP 2025 Main.
