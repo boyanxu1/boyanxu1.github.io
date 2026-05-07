@@ -43,9 +43,70 @@ I am always keen to collaborate with motivated students and industry partners on
 # 📝 Publications 
 †Corresponding Author, *Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Main)</div><img src='images/2025_NAACL_IRRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_arxiv_MMErroR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+[MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models](https://arxiv.org/pdf/2601.03331)
+
+Yang Shi*, Yifeng Xie*, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, **Boyan Xu†**, Zhiqi Huang
+
+* We introduce MMErroR, a multi-modal benchmark for process-level error diagnosis in vision-language models, comprising 1,997 curated samples across 24 subdomains and four reasoning error types, revealing that even the strongest evaluated VLM achieves only 66.65% accuracy in fine-grained error-type classification. 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_ACL_ROSESQL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL](https://arxiv.org/pdf/2605.03720)
+
+Le Zhou, Feng Yao, Fengcai Qiao, Bo Xu, Fangyuan Wang, **Boyan Xu†**
+
+* We propose Rose-SQL, a training-free framework that adapts small-scale reasoning models to multi-turn Text-to-SQL through Role-State evolution, using gain dependency analysis, structural isomorphism checks, and augmented hierarchical reasoning to track dialogue changes and guide SQL generation, achieving state-of-the-art performance on SParC and CoSQL without task-specific fine-tuning.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Findings)</div><img src='images/2026_ACL_SAMNER.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAM-NER: Semantic Archetype Mediation for Zero-Shot Named Entity Recognition](https://arxiv.org/pdf/2605.03706)
+
+Ruichu Cai, Juntao Gan, Miao Mai, Zhifeng Hao, **Boyan Xu†**
+
+* We propose SAM-NER, a three-stage zero-shot NER framework that mitigates semantic drift through semantic archetype mediation, combining cooperative entity discovery, universal archetype projection, and definition-guided calibration to achieve state-of-the-art cross-domain performance on CrossNER without relying on external knowledge bases. 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Findings)</div><img src='images/2026_ACL_SERE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SERE: Structural Example Retrieval for Enhancing LLMs in Event Causality Identification](https://arxiv.org/pdf/2605.03701)
+
+Zhifeng Hao, Zhongjie Chen, Junhao Lu, Shengyin Yu, Guimin Hu, Keli Zhang, Ruichu Cai, **Boyan Xu†**
+
+* We propose SERE, a structural example retrieval framework that enhances LLMs for event causality identification by jointly leveraging conceptual path similarity, syntactic tree similarity, and causal pattern filtering to retrieve structurally aligned demonstrations, mitigating causal hallucination and improving performance across multiple ECI datasets. 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025(Main)</div><img src='images/2025_EMNLP_Genlink.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GenLink: Generation-Driven Schema-Linking via Multi-Model Learning for Text-to-SQL](https://aclanthology.org/2025.emnlp-main.1518.pdf)
+
+Zhifeng Hao, Junqi Huang, Shaobin Shi, Ruichu Cai, **Boyan Xu†**
+
+* We propose GenLink, a generation-driven schema-linking framework that integrates multiple small language models to infer implicit schema links through SQL generation and self-consistency, achieving strong cross-domain Text-to-SQL performance on BIRD and Spider with execution accuracies of 67.34%, 89.7%, and 87.8%. 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Main)</div><img src='images/2025_NAACL_IRRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [Handling Missing Entities in Zero-Shot Named Entity Recognition: Integrated Recall and Retrieval Augmentation](https://aclanthology.org/2025.naacl-long.540.pdf)
 
@@ -114,10 +175,15 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 </div>
 </div>
 
+- [Hierarchical Action Learning for Weakly-Supervised Action Segmentation](https://arxiv.org/pdf/2602.24275), Junxian Huang, Ruichu Cai, Hao Zhu, Juntao Fang, **Boyan Xu**, Weilin Chen, Zijian Li, Shenghua Gao (CVPR 2026)
+- [What Gets Activated: Uncovering Domain and Driver Experts in MoE Language Models](https://arxiv.org/pdf/2601.10159), Guimin Hu, Meng Li, Qiwei Peng, Lijie Hu, **Boyan Xu**, Ruichu Cai (Preprints)
+- [ENTRA: Entropy-Based Redundancy Avoidance in Large Language Model Reasoning](https://arxiv.org/pdf/2601.07123), Ruichu Cai, Haopeng Du, Qingwen Lin, Yutong Chen, Zijian Li, **Boyan Xu†** (Preprints)
+- [CMCTS: A Constrained Monte Carlo Tree Search framework for mathematical reasoning in large language model](https://arxiv.org/pdf/2502.11169), Qingwen Lin, **Boyan Xu**, Guimin Hu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Applied Intelligence)
+- [OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation](https://arxiv.org/pdf/2512.19379), **Xueming Yan** *, **Boyan Xu** * Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang (Preprints)
+- [Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation](https://arxiv.org/pdf/2511.21402), Zhifeng Hao, Qibin Song, Ruichu Cai, **Boyan Xu†** (Preprints)
 - [Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism](https://arxiv.org/pdf/2505.07180), Ruichu Cai, Kaitao Zheng, Zijian Li, Junxian Huang, Zhengming Chen, **Boyan Xu**, Zhifeng Hao (IJCAI 2025)
 - [Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting](https://arxiv.org/abs/2505.24710), Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025)
 - PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness, Zhifeng Hao, Yuyuan Cai, Shaobin Shi, **Boyan Xu†**, Ruichu Cai (IJCNN 2025)
-- [Leveraging Constrained Monte Carlo Tree Search to Generate Reliable Long Chain-of-Thought for Mathematical Reasoning](https://arxiv.org/abs/2502.11169), Qingwen Lin, Boyan Xu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Work in Progress)
 - [Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models](https://www.computer.org/csdl/proceedings-article/icde/2025/360300e620/26FZCZpGOYg)，**Boyan Xu** *, **Yuyuan Cai** *, Shaobin Shi, Zhifeng Hao, Ruichu Cai (ICDE 2025 Demo) 
 - [TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation](https://arxiv.org/pdf/2411.11305), Ranmin Wang, Limin Zhuang, Hongkun Chen, **Boyan Xu†**, Ruichu Cai (Preprint)
 - [SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization](https://link.springer.com/article/10.1007/s13042-024-02471-2), Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu†**, Ruichu Cai (JMLC)
