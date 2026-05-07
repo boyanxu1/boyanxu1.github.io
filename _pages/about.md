@@ -43,7 +43,7 @@ I am always keen to collaborate with motivated students and industry partners on
 # 📝 Publications 
 †Corresponding Author, *Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_arxiv_MMErroR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_ACL_MMEEEOR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models](https://arxiv.org/pdf/2601.03331)
