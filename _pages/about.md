@@ -188,11 +188,11 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 </div>
 
 - [Hierarchical Action Learning for Weakly-Supervised Action Segmentation](https://arxiv.org/pdf/2602.24275), Junxian Huang, Ruichu Cai, Hao Zhu, Juntao Fang, **Boyan Xu**, Weilin Chen, Zijian Li, Shenghua Gao (CVPR 2026)
-- [What Gets Activated: Uncovering Domain and Driver Experts in MoE Language Models](https://arxiv.org/pdf/2601.10159), Guimin Hu, Meng Li, Qiwei Peng, Lijie Hu, **Boyan Xu**, Ruichu Cai (Preprints)
-- [ENTRA: Entropy-Based Redundancy Avoidance in Large Language Model Reasoning](https://arxiv.org/pdf/2601.07123), Ruichu Cai, Haopeng Du, Qingwen Lin, Yutong Chen, Zijian Li, **Boyan Xu†** (Preprints)
+- [What Gets Activated: Uncovering Domain and Driver Experts in MoE Language Models](https://arxiv.org/pdf/2601.10159), Guimin Hu, Meng Li, Qiwei Peng, Lijie Hu, **Boyan Xu**, Ruichu Cai (Preprint)
+- [ENTRA: Entropy-Based Redundancy Avoidance in Large Language Model Reasoning](https://arxiv.org/pdf/2601.07123), Ruichu Cai, Haopeng Du, Qingwen Lin, Yutong Chen, Zijian Li, **Boyan Xu†** (Preprint)
 - [CMCTS: A Constrained Monte Carlo Tree Search framework for mathematical reasoning in large language model](https://arxiv.org/pdf/2502.11169), Qingwen Lin, **Boyan Xu**, Guimin Hu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Applied Intelligence)
-- [OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation](https://arxiv.org/pdf/2512.19379), **Xueming Yan** *, **Boyan Xu** * Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang (Preprints)
-- [Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation](https://arxiv.org/pdf/2511.21402), Zhifeng Hao, Qibin Song, Ruichu Cai, **Boyan Xu†** (Preprints)
+- [OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation](https://arxiv.org/pdf/2512.19379), **Xueming Yan** *, **Boyan Xu** * Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang (Preprint)
+- [Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation](https://arxiv.org/pdf/2511.21402), Zhifeng Hao, Qibin Song, Ruichu Cai, **Boyan Xu†** (Preprint)
 - [Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism](https://arxiv.org/pdf/2505.07180), Ruichu Cai, Kaitao Zheng, Zijian Li, Junxian Huang, Zhengming Chen, **Boyan Xu**, Zhifeng Hao (IJCAI 2025)
 - [Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting](https://arxiv.org/abs/2505.24710), Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025)
 - [PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness](https://ieeexplore.ieee.org/document/11228968), Zhifeng Hao, Yuyuan Cai, Shaobin Shi, **Boyan Xu†**, Ruichu Cai (IJCNN 2025)
