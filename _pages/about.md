@@ -104,6 +104,18 @@ Zhifeng Hao, Junqi Huang, Shaobin Shi, Ruichu Cai, **Boyan Xu†**
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2025(Demo)</div><img src='images/2025_ICDE_CHAT2DB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models](https://ieeexplore.ieee.org/abstract/document/11113201/)
+
+**Boyan Xu** *, **Yuyuan Cai** *, Shaobin Shi, Zhifeng Hao, Ruichu Cai 
+
+* We propose Chat2DB, an interactive conversational database system that enhances Text-to-SQL parsers through agent-assisted question-schema linking and adaptive retraining, enabling users to collaboratively refine schema selection, improve SQL generation accuracy, and query domain-specific databases through natural language. 
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025(Main)</div><img src='images/2025_NAACL_IRRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -184,7 +196,6 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 - [Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism](https://arxiv.org/pdf/2505.07180), Ruichu Cai, Kaitao Zheng, Zijian Li, Junxian Huang, Zhengming Chen, **Boyan Xu**, Zhifeng Hao (IJCAI 2025)
 - [Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting](https://arxiv.org/abs/2505.24710), Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025)
 - PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness, Zhifeng Hao, Yuyuan Cai, Shaobin Shi, **Boyan Xu†**, Ruichu Cai (IJCNN 2025)
-- [Chat2DB: Chatting to the Database with Interactive Agent Assisted Language Models](https://www.computer.org/csdl/proceedings-article/icde/2025/360300e620/26FZCZpGOYg)，**Boyan Xu** *, **Yuyuan Cai** *, Shaobin Shi, Zhifeng Hao, Ruichu Cai (ICDE 2025 Demo) 
 - [TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation](https://arxiv.org/pdf/2411.11305), Ranmin Wang, Limin Zhuang, Hongkun Chen, **Boyan Xu†**, Ruichu Cai (Preprint)
 - [SDGNN: Structure-aware Dual Graph Neural Network for Code Summarization](https://link.springer.com/article/10.1007/s13042-024-02471-2), Zhifeng Hao, Zonghao Lin, Shengqiang Zhang, **Boyan Xu†**, Ruichu Cai (JMLC)
 - [From Large to Tiny: Distilling and Refining Mathematical Expertise for Math Word Problems with Weakly Supervision](https://arxiv.org/pdf/2403.14390), Qingwen Lin, **Boyan Xu**, Zhengting Huang, Ruichu Cai (ICIC 2024)
