@@ -33,7 +33,7 @@ My research connects natural language, structured data, and causal reasoning:
 I welcome collaboration with motivated students and industry partners on Text-to-SQL agents, causality-enhanced AI, and ABSA. Feel free to email me with your CV and a short statement of interest.
 
 ## 🔥 News
-- *2026.07*: &nbsp;Our lab releases [**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
+- *2026.07*: &nbsp;[**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference, is now available. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
 - *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
 - *2025.08*: &nbsp;🎉🎉 GenLink have been accepted by EMNLP 2025 Main.
@@ -44,12 +44,10 @@ I welcome collaboration with motivated students and industry partners on Text-to
 - *2024.05*: &nbsp;🎉🎉 The paper I supervised, "S2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis" has been accepted by ACL 2024 Main.
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
 
-<h2 id="cdfm">🔬 Lab Highlight</h2>
-
-{% include cdfm-feature.html %}
-
 ## 📝 Publications
 †Corresponding Author, *Equal Contribution
+
+{% include cdfm-feature.html %}
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_ACL_MMERROR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

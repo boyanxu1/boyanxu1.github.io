@@ -3,7 +3,5 @@ main:
     url: "/#about-me"
   - title: "News"
     url: "/#-news"
-  - title: "Lab Highlight"
-    url: "/#cdfm"
   - title: "Publications"
     url: "/#-publications"
