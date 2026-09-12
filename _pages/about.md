@@ -16,7 +16,7 @@ redirect_from:
 
 I am a researcher at **Guangdong University of Technology (GDUT)**, working with [**Prof. Ruichu Cai**](https://ruichucai.github.io/) in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/). My research focuses on **Text-to-SQL**, **Large Language Models**, and **Causality-enhanced AI**, with additional interests in affective computing and natural language processing.
 
-<p class="profile-intro-zh" lang="zh-CN">广东工业大学计算机学院硕士生导师，研究方向包括大语言模型、Text-to-SQL 与因果增强智能。参与研发 CDFM 因果发现基础模型，探索从数据理解到结构推断的智能方法。</p>
+<p class="profile-intro-zh" lang="zh-CN">广东工业大学计算机学院硕士生导师，研究方向包括大语言模型、Text-to-SQL 与因果增强智能。</p>
 
 <div class="profile-links">
   <a href="https://scholar.google.com/citations?user=AMUlDdEAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -24,18 +24,16 @@ I am a researcher at **Guangdong University of Technology (GDUT)**, working with
   <a href="https://cs.gdut.edu.cn/info/2238/3055.htm">GDUT Profile <span aria-hidden="true">↗</span></a>
 </div>
 
-{% include cdfm-feature.html %}
-
 My research connects natural language, structured data, and causal reasoning:
 
 - **Text-to-SQL & Data Agents:** Natural language interfaces for databases, schema linking, and multi-turn reasoning.
 - **Large Language Models:** Retrieval-augmented generation, structured reasoning, and language understanding.
-- **Causality-enhanced AI:** Causal discovery foundation models, including **CDFM**, and their connections to data analysis and intelligent decision-making.
+- **Causality-enhanced AI:** Causal discovery foundation models and their connections to data analysis and intelligent decision-making.
 
-I welcome collaboration with motivated students and industry partners on Text-to-SQL agents, CDFM, causality-enhanced AI, and ABSA. Feel free to email me with your CV and a short statement of interest.
+I welcome collaboration with motivated students and industry partners on Text-to-SQL agents, causality-enhanced AI, and ABSA. Feel free to email me with your CV and a short statement of interest.
 
 ## 🔥 News
-- *2026.07*: &nbsp;We release [**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
+- *2026.07*: &nbsp;Our lab releases [**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
 - *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
 - *2025.08*: &nbsp;🎉🎉 GenLink have been accepted by EMNLP 2025 Main.
@@ -45,6 +43,10 @@ I welcome collaboration with motivated students and industry partners on Text-to
 - *2024.07*: &nbsp;🎉🎉 I am the problem setter for the **2024 Third International Algorithm Case Competition (IACC)**, hosted by Pazhou Lab. The challenge I designed focuses on **"Generating Database Query Commands Based on Large Language Models"**. The competition is currently underway with a total prize pool of 500,000 RMB. ([Learn more](https://iacc.pazhoulab-huangpu.com/contestdetail?id=668de12c7ff47da8cc88c0ce&award=500,000+%E7%BB%8F%E8%B4%B9%E6%94%AF%E6%8C%81))
 - *2024.05*: &nbsp;🎉🎉 The paper I supervised, "S2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis" has been accepted by ACL 2024 Main.
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
+
+<h2 id="cdfm">🔬 Lab Highlight</h2>
+
+{% include cdfm-feature.html %}
 
 ## 📝 Publications
 †Corresponding Author, *Equal Contribution

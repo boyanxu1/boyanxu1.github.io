@@ -1,9 +1,9 @@
 main:
   - title: "About"
     url: "/#about-me"
-  - title: "CDFM"
-    url: "/#cdfm"
   - title: "News"
     url: "/#-news"
+  - title: "Lab Highlight"
+    url: "/#cdfm"
   - title: "Publications"
     url: "/#-publications"

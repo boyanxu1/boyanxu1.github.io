@@ -1,31 +1,21 @@
-<section class="cdfm-feature" id="cdfm" aria-labelledby="cdfm-title">
-  <div class="cdfm-copy">
-    <p class="cdfm-eyebrow">FEATURED RESEARCH <span>OPEN SOURCE · 2026</span></p>
-    <h2 id="cdfm-title">CDFM <span>Causal Discovery Foundation Model</span></h2>
-    <p class="cdfm-subtitle" lang="zh-CN">迈向通用因果发现基础模型</p>
-    <p class="cdfm-description">From observational data to causal structure. CDFM predicts a causal graph in a single forward pass, with zero-shot inference across diverse mechanisms.</p>
-    <ul class="cdfm-highlights" aria-label="Project highlights">
-      <li>Zero-shot discovery</li>
-      <li>Single forward pass</li>
-      <li>Open model weights</li>
-    </ul>
-    <div class="cdfm-links">
-      <a class="cdfm-primary" href="https://arxiv.org/abs/2607.11508">Read the paper <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/DMIRLAB-Group/CDFM">GitHub <span aria-hidden="true">↗</span></a>
-      <a href="https://huggingface.co/DMIRLAB/CDFM">Hugging Face <span aria-hidden="true">↗</span></a>
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Preprint 2026</div>
+      <a href="{{ '/images/2026_CDFM_benchmark.png' | relative_url }}" aria-label="View the CDFM benchmark figure">
+        <img src="{{ '/images/2026_CDFM_benchmark.png' | relative_url }}" alt="CDFM benchmark: AUROC comparison with the best baseline across 15 mechanism families" width="100%" loading="lazy">
+      </a>
     </div>
   </div>
-  <svg class="cdfm-art" viewBox="0 0 160 180" aria-hidden="true" focusable="false">
-    <circle cx="80" cy="90" r="72" fill="none" stroke="#dce9e8" />
-    <circle cx="80" cy="90" r="48" fill="none" stroke="#e4eeee" />
-    <g fill="none" stroke="#88b1b0" stroke-width="1.5">
-      <path d="M38 48 L112 39 L125 121 L63 143 L38 48 M38 48 L80 86 L112 39 M80 86 L125 121 M80 86 L63 143" />
-    </g>
-    <g fill="#fff" stroke="#176b70" stroke-width="2">
-      <circle cx="38" cy="48" r="7"/><circle cx="112" cy="39" r="7"/>
-      <circle cx="125" cy="121" r="7"/><circle cx="63" cy="143" r="7"/>
-    </g>
-    <circle cx="80" cy="86" r="12" fill="#176b70" />
-    <circle cx="80" cy="86" r="4" fill="#fff" />
-  </svg>
-</section>
+  <div class="paper-box-text" markdown="1">
+
+[CDFM: Towards a General-Purpose Causal Discovery Foundation Model](https://arxiv.org/abs/2607.11508)
+
+Jie Qiao, Ruichu Cai, Zijian Li, Weilin Chen, Pengfei Hua, **Boyan Xu**, Zhengming Chen, Zhifeng Hao, Peng Cui
+
+[Code](https://github.com/DMIRLAB-Group/CDFM) · [Model weights](https://huggingface.co/DMIRLAB/CDFM)
+
+* A highlighted collaborative project from DMIRLAB. Pretrained on synthetic structural causal models, CDFM infers causal graphs from observational data in a single forward pass for zero-shot causal discovery.
+
+  </div>
+</div>
