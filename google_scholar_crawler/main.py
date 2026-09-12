@@ -1,23 +1,54 @@
-from scholarly import scholarly
-import jsonpickle
+"""Refresh Scholar data; publish only after a complete, validated fetch."""
+
 import json
-from datetime import datetime
 import os
+from datetime import datetime, timezone
+from pathlib import Path
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
-os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
 
-shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
-}
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
+def normalize_author(author, scholar_id):
+    if author.get('scholar_id') != scholar_id:
+        raise ValueError('Google Scholar returned an unexpected profile')
+    if not author.get('name'):
+        raise ValueError('Google Scholar returned an empty profile')
+    citedby = author.get('citedby')
+    if type(citedby) is not int or citedby < 0:
+        raise ValueError('Google Scholar did not return a valid citation count')
+    publications = author.get('publications')
+    if not isinstance(publications, list):
+        raise ValueError('Google Scholar did not return the publication list')
+    result = dict(author)
+    result['publications'] = {p['author_pub_id']: p for p in publications}
+    result['updated'] = datetime.now(timezone.utc).isoformat(timespec='seconds')
+    return result
+
+
+def main():
+    from scholarly import scholarly
+
+    scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID', '').strip() or 'AMUlDdEAAAAJ'
+    scholarly.set_timeout(20)
+    scholarly.set_retries(2)
+    author = scholarly.search_author_id(scholar_id)
+    scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+    author = normalize_author(author, scholar_id)
+    results = Path(__file__).resolve().parent / 'results'
+    results.mkdir(exist_ok=True)
+    payloads = {
+        'gs_data.json': author,
+        'gs_data_shieldsio.json': {
+            'schemaVersion': 1,
+            'label': 'citations',
+            'message': str(author['citedby']),
+        },
+    }
+    for filename, data in payloads.items():
+        temporary = results / (filename + '.tmp')
+        temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temporary.replace(results / filename)
+    print(f"Updated {author['name']}: {author['citedby']} citations, "
+          f"{len(author['publications'])} publications ({author['updated']})")
+
+
+if __name__ == '__main__':
+    main()

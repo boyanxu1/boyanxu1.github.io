@@ -1,19 +1,44 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
+(function () {
+  var total = document.getElementById('total_cit');
+  var papers = document.querySelectorAll('.show_paper_citations');
+  if (!total && !papers.length) return;
+  var sources = [
+    'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json',
+    'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json'
+  ];
+  function render(data) {
+    if (!Number.isInteger(data.citedby) || data.citedby < 0) throw new Error('Invalid citation data');
+    if (total) {
+      total.textContent = data.citedby.toLocaleString('en-US');
+      var summary = document.getElementById('citation-summary');
+      if (summary) summary.hidden = false;
+      var updated = document.getElementById('citation-updated');
+      if (updated && data.updated) updated.textContent = 'Updated ' + data.updated.slice(0, 10);
+    }
+    Array.prototype.forEach.call(papers, function (element) {
+      var paper = (data.publications || {})[element.getAttribute('data')];
+      if (paper && Number.isInteger(paper.num_citations)) {
+        element.textContent = '| Citations: ' + paper.num_citations;
+      }
+    });
+  }
+  async function refresh() {
+    for (var i = 0; i < sources.length; i++) {
+      var controller = new AbortController();
+      var timeout = setTimeout(function () { controller.abort(); }, 8000);
+      try {
+        var response = await fetch(sources[i], {cache: 'no-store', signal: controller.signal});
+        if (!response.ok) throw new Error('Citation request failed');
+        render(await response.json());
+        return;
+      } catch (error) {
+        // Keep the profile link usable if a source is temporarily unavailable.
+      } finally {
+        clearTimeout(timeout);
+      }
+    }
+  }
+  refresh();
+})();
 </script>

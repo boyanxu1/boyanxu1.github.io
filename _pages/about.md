@@ -1,38 +1,41 @@
 ---
 permalink: /
 title: "Boyan Xu (许柏炎) | Guangdong University of Technology"
-description: "Boyan Xu (许柏炎), researcher at Guangdong University of Technology (GDUT). Research in Text-to-SQL, large language models, causal learning, and NLP."
+description: "Boyan Xu (许柏炎), researcher at Guangdong University of Technology (GDUT). Research in Text-to-SQL, large language models, causality-enhanced AI, and NLP."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<header class="profile-heading" id="about-me">
+  <p class="profile-eyebrow">RESEARCHER · GDUT</p>
+  <h1 class="profile-name">Boyan Xu <span lang="zh-CN">许柏炎</span></h1>
+  <p class="profile-affiliation">School of Computer Science · Guangdong University of Technology</p>
+</header>
 
-<h1 id='about-me'>Boyan Xu <span lang='zh-CN'>（许柏炎）</span></h1>
+I am a researcher at **Guangdong University of Technology (GDUT)**, working with [**Prof. Ruichu Cai**](https://ruichucai.github.io/) in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/). My research focuses on **Text-to-SQL**, **Large Language Models**, and **Causality-enhanced AI**, with additional interests in affective computing and natural language processing.
 
-I am **Boyan Xu (许柏炎)**, a researcher at the **School of Computer Science, Guangdong University of Technology (GDUT)**, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Affective Computing**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+<p class="profile-intro-zh" lang="zh-CN">广东工业大学计算机学院硕士生导师，研究方向包括大语言模型、Text-to-SQL 与因果增强智能。参与研发 CDFM 因果发现基础模型，探索从数据理解到结构推断的智能方法。</p>
 
-<p lang="zh-CN">许柏炎，广东工业大学计算机学院硕士生导师，研究方向包括大语言模型、Text-to-SQL、因果学习与自然语言处理。</p>
+<div class="profile-links">
+  <a href="https://scholar.google.com/citations?user=AMUlDdEAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
+  <a href="https://aclanthology.org/people/boyan-xu/">ACL Anthology <span aria-hidden="true">↗</span></a>
+  <a href="https://cs.gdut.edu.cn/info/2238/3055.htm">GDUT Profile <span aria-hidden="true">↗</span></a>
+</div>
 
-[Google Scholar](https://scholar.google.com/citations?user=AMUlDdEAAAAJ) · [ACL Anthology](https://aclanthology.org/people/boyan-xu/) · [GDUT Faculty Profile / 学校主页](https://cs.gdut.edu.cn/info/2238/3055.htm)
+{% include cdfm-feature.html %}
 
-My research interests include:
+My research connects natural language, structured data, and causal reasoning:
 
-- **Text-to-SQL:** Developing models that translate natural language queries into SQL statements, facilitating intuitive database interactions.
-- **Large Language Models:** Exploring the capabilities and applications of large-scale language models in various NLP tasks.
-- **Affective Computing:** Analyzing and interpreting human emotions and opinions through computational methods.
+- **Text-to-SQL & Data Agents:** Natural language interfaces for databases, schema linking, and multi-turn reasoning.
+- **Large Language Models:** Retrieval-augmented generation, structured reasoning, and language understanding.
+- **Causality-enhanced AI:** Causal discovery foundation models, including **CDFM**, and their connections to data analysis and intelligent decision-making.
 
-I am always keen to collaborate with motivated students and industry partners on Text‑to‑SQL agents, causal LLMs and ABSA. Drop me an email with your CV and a short statement of interest.
-
+I welcome collaboration with motivated students and industry partners on Text-to-SQL agents, CDFM, causality-enhanced AI, and ABSA. Feel free to email me with your CV and a short statement of interest.
 
 ## 🔥 News
+- *2026.07*: &nbsp;We release [**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
 - *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
 - *2025.11*: &nbsp;🎉🎉 DSQ-SQL ranks 3rd on the Spider 2.0-Lite leaderboard and has been open-sourced.
