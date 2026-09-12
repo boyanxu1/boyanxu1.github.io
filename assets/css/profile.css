@@ -1,5 +1,6 @@
 /* Focused homepage refinements, layered over the existing academic theme. */
-.profile-heading { margin: 0 0 1.3rem; scroll-margin-top: 5rem; }
+.page__content #about-me.profile-heading { margin: 0 0 1.3rem; scroll-margin-top: 5rem; }
+.page__content #about-me.profile-heading::before { display: none; }
 .profile-heading .profile-eyebrow {
   margin: 0 0 .5rem; color: #718087; font-size: .65rem;
   font-weight: 600; letter-spacing: .14em;

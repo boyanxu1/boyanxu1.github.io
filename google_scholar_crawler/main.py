@@ -1,6 +1,7 @@
 """Refresh Scholar data; publish only after a complete, validated fetch."""
 
 import json
+import logging
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,7 @@ def normalize_author(author, scholar_id):
 
 
 def main():
+    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
     from scholarly import scholarly
 
     scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID', '').strip() or 'AMUlDdEAAAAJ'
