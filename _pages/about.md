@@ -40,7 +40,7 @@ I welcome collaboration with motivated students and industry partners on Text-to
 - *2025.01*: &nbsp;🎉🎉 3 papers under my supervision have been accepted by NAACL 2025.
 - *2025.01*: &nbsp;🎉🎉 Chat2DB have been accepted by ICDE 2025 Demo track.
 - *2024.11*: &nbsp;🎉🎉 2 papers under my supervision have been accepted by COLING 2025.
-- *2024.07*: &nbsp;🎉🎉 I am the problem setter for the **2024 Third International Algorithm Case Competition (IACC)**, hosted by Pazhou Lab. The challenge I designed focuses on **"Generating Database Query Commands Based on Large Language Models"**. The competition is currently underway with a total prize pool of 500,000 RMB. ([Learn more](https://iacc.pazhoulab-huangpu.com/contestdetail?id=668de12c7ff47da8cc88c0ce&award=500,000+%E7%BB%8F%E8%B4%B9%E6%94%AF%E6%8C%81))
+- *2024.07*: &nbsp;🎉🎉 I am the problem setter for the **2024 Third International Algorithm Case Competition (IACC)**, hosted by Pazhou Lab. The challenge I designed focuses on **"Generating Database Query Commands Based on Large Language Models"**.
 - *2024.05*: &nbsp;🎉🎉 The paper I supervised, "S2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis" has been accepted by ACL 2024 Main.
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
 
