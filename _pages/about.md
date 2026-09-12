@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Boyan Xu"
-excerpt: "Researcher in Text-to-SQL, Large Language Models, Sentiment Analysis, and Machine Learning"
+title: "Boyan Xu (许柏炎) | Guangdong University of Technology"
+description: "Boyan Xu (许柏炎), researcher at Guangdong University of Technology (GDUT). Research in Text-to-SQL, large language models, causal learning, and NLP."
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,9 +15,13 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<h1 id='about-me'>Boyan Xu <span lang='zh-CN'>（许柏炎）</span></h1>
 
-I am a researcher at Guangdong University of Technology, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Affective Computing**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+I am **Boyan Xu (许柏炎)**, a researcher at the **School of Computer Science, Guangdong University of Technology (GDUT)**, working in the [**Data Mining & Information Retrieval Laboratory**](https://dmir.gdut.edu.cn/) under the supervision of [**Prof. Ruichu Cai**](https://ruichucai.github.io/). My research focuses on **Text-to-SQL**, **Large Language Models** and **Affective Computing**. My work aims to bridge the gap between natural language processing and database management, enhancing human-computer interaction.
+
+<p lang="zh-CN">许柏炎，广东工业大学计算机学院硕士生导师，研究方向包括大语言模型、Text-to-SQL、因果学习与自然语言处理。</p>
+
+[Google Scholar](https://scholar.google.com/citations?user=AMUlDdEAAAAJ) · [ACL Anthology](https://aclanthology.org/people/boyan-xu/) · [GDUT Faculty Profile / 学校主页](https://cs.gdut.edu.cn/info/2238/3055.htm)
 
 My research interests include:
 
@@ -28,7 +32,7 @@ My research interests include:
 I am always keen to collaborate with motivated students and industry partners on Text‑to‑SQL agents, causal LLMs and ABSA. Drop me an email with your CV and a short statement of interest.
 
 
-# 🔥 News
+## 🔥 News
 - *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
 - *2025.11*: &nbsp;🎉🎉 DSQ-SQL ranks 3rd on the Spider 2.0-Lite leaderboard and has been open-sourced.
@@ -40,7 +44,7 @@ I am always keen to collaborate with motivated students and industry partners on
 - *2024.05*: &nbsp;🎉🎉 The paper I supervised, "S2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis" has been accepted by ACL 2024 Main.
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
 
-# 📝 Publications 
+## 📝 Publications
 †Corresponding Author, *Equal Contribution
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026(Main)</div><img src='images/2026_ACL_MMERROR.png' alt="sym" width="100%"></div></div>

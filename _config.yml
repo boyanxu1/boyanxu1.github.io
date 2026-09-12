@@ -6,8 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Boyan Xu"
-description              : "Academic Homepage"
+title                    : "Boyan Xu (许柏炎) | Guangdong University of Technology"
+url                      : "https://boyanxu1.github.io"
+baseurl                  : ""
+description              : "Boyan Xu (许柏炎), researcher at Guangdong University of Technology (GDUT). Research in Text-to-SQL, large language models, causal learning, and NLP."
 repository               : "boyanxu1/boyanxu1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Boyan Xu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Guangdong University of Techonology"
+  bio              : "Guangdong University of Technology"
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
