@@ -20,7 +20,7 @@
   ],
   "email_domain": "@gdut.edu.cn",
   "homepage": "https://boyanxu1.github.io/",
-  "citedby": 535,
+  "citedby": 537,
   "publications": {
     "AMUlDdEAAAAJ:u-x6o8ySG0sC": {
       "container_type": "Publication",
@@ -212,7 +212,7 @@
       },
       "filled": false,
       "author_pub_id": "AMUlDdEAAAAJ:9ZlFYXVOiuMC",
-      "num_citations": 12,
+      "num_citations": 13,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8440407856984014818",
       "cites_id": [
         "8440407856984014818"
@@ -257,7 +257,7 @@
       },
       "filled": false,
       "author_pub_id": "AMUlDdEAAAAJ:O3NaXMp0MMsC",
-      "num_citations": 4,
+      "num_citations": 5,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=515619065305368554",
       "cites_id": [
         "515619065305368554"
@@ -697,9 +697,9 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 492,
-  "hindex": 12,
-  "hindex5y": 12,
+  "citedby5y": 494,
+  "hindex": 13,
+  "hindex5y": 13,
   "i10index": 13,
   "i10index5y": 13,
   "cites_per_year": {
@@ -711,7 +711,7 @@
     "2023": 80,
     "2024": 68,
     "2025": 115,
-    "2026": 130
+    "2026": 132
   },
-  "updated": "2026-09-12T08:47:15+00:00"
+  "updated": "2026-09-16T13:30:41+00:00"
 }
