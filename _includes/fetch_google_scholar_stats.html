@@ -7,35 +7,59 @@
     'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json',
     'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json'
   ];
+  function showDate(data, unavailable) {
+    var updated = document.getElementById('citation-updated');
+    if (!updated) return;
+    var fetched = Date.parse(data.updated);
+    if (!Number.isFinite(fetched)) {
+      updated.textContent = 'Last update unknown';
+      return;
+    }
+    var stale = unavailable || Date.now() - fetched > 48 * 60 * 60 * 1000;
+    updated.textContent = (stale ? 'Cached · Last updated ' : 'Updated ') + data.updated.slice(0, 10);
+    updated.title = unavailable ? 'Latest refresh unavailable; showing the last successful fetch' : '';
+  }
   function render(data) {
     if (!Number.isInteger(data.citedby) || data.citedby < 0) throw new Error('Invalid citation data');
     if (total) {
       total.textContent = data.citedby.toLocaleString('en-US');
       var summary = document.getElementById('citation-summary');
       if (summary) summary.hidden = false;
-      var updated = document.getElementById('citation-updated');
-      if (updated && data.updated) updated.textContent = 'Updated ' + data.updated.slice(0, 10);
+      showDate(data, false);
     }
     Array.prototype.forEach.call(papers, function (element) {
       var paper = (data.publications || {})[element.getAttribute('data')];
-      if (paper && Number.isInteger(paper.num_citations)) {
+      if (paper && Number.isInteger(paper.num_citations) && paper.num_citations >= 0) {
         element.textContent = '| Citations: ' + paper.num_citations;
       }
     });
   }
+  async function load(url) {
+    var controller = new AbortController();
+    var timeout = setTimeout(function () { controller.abort(); }, 8000);
+    try {
+      var response = await fetch(url, {cache: 'no-store', signal: controller.signal});
+      if (!response.ok) throw new Error('Citation request failed');
+      return await response.json();
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
   async function refresh() {
     for (var i = 0; i < sources.length; i++) {
-      var controller = new AbortController();
-      var timeout = setTimeout(function () { controller.abort(); }, 8000);
       try {
-        var response = await fetch(sources[i], {cache: 'no-store', signal: controller.signal});
-        if (!response.ok) throw new Error('Citation request failed');
-        render(await response.json());
+        var data = await load(sources[i]);
+        render(data);
+        try {
+          var status = await load(sources[i].replace('gs_data.json', 'gs_status.json'));
+          // Do not apply a status from another cached snapshot/version.
+          if (status.state === 'stale' && status.last_success === data.updated) showDate(data, true);
+        } catch (error) {
+          // Older data branches have no status file; the successful fetch date still applies.
+        }
         return;
       } catch (error) {
         // Keep the profile link usable if a source is temporarily unavailable.
-      } finally {
-        clearTimeout(timeout);
       }
     }
   }
