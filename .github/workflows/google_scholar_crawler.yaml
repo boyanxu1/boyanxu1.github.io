@@ -3,7 +3,7 @@ name: Get Citation Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 8 * * *'
+    - cron: '17 8 * * 1'
   push:
     branches: [main]
     paths:
@@ -41,8 +41,8 @@ jobs:
         run: node --test google_scholar_crawler/tests/test_display.cjs
 
   update:
-    # PR checks cannot fetch live data or publish to the website's data branch.
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    # Only scheduled/manual main-branch runs fetch live data; pushes and PRs test offline.
+    if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 5
