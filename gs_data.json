@@ -20,7 +20,7 @@
   ],
   "email_domain": "@gdut.edu.cn",
   "homepage": "https://boyanxu1.github.io/",
-  "citedby": 537,
+  "citedby": 545,
   "publications": {
     "AMUlDdEAAAAJ:u-x6o8ySG0sC": {
       "container_type": "Publication",
@@ -713,5 +713,9 @@
     "2025": 115,
     "2026": 132
   },
-  "updated": "2026-09-16T13:30:41+00:00"
+  "updated": "2026-09-16T13:30:41+00:00",
+  "citedby_verification": {
+    "source": "owner_reported",
+    "date": "2026-10-01"
+  }
 }
