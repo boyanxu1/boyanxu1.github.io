@@ -81,3 +81,34 @@ test('negative publication count is not rendered', async () => {
   const {paper} = await display(['DATA', null], {...fresh, publications: {'test:paper': {num_citations: -2}}});
   assert.equal(paper.textContent, '');
 });
+
+test('owner-reported total gets its own manual date without refreshing paper counts', async () => {
+  const manual = {...fresh, citedby: 545, updated: '2026-09-16T13:30:41+00:00',
+    citedby_verification: {source: 'owner_reported', date: '2026-10-01'}};
+  const {elements, paper} = await display(['DATA', {state: 'stale', last_success: manual.updated}], manual);
+  assert.equal(elements.total_cit.textContent, '545');
+  assert.equal(elements['citation-updated'].textContent, 'Total updated manually 2026-10-01');
+  assert.match(elements['citation-updated'].title, /Total provided by profile owner/);
+  assert.match(elements['citation-updated'].title, /Per-paper counts last fetched 2026-09-16/);
+  assert.match(elements['citation-updated'].title, /Latest automatic refresh unavailable/);
+  assert.equal(paper.textContent, '| Citations: 12');
+});
+
+test('manual total date remains truthful when status file is unavailable', async () => {
+  const manual = {...fresh, citedby_verification: {source: 'owner_reported', date: '2026-10-01'}};
+  const {elements} = await display(['DATA', null], manual);
+  assert.equal(elements['citation-updated'].textContent, 'Total updated manually 2026-10-01');
+  assert.doesNotMatch(elements['citation-updated'].title, /Latest automatic refresh unavailable/);
+});
+
+test('invalid or unrecognized manual provenance cannot claim a manual update', async () => {
+  for (const verification of [
+    {source: 'owner_reported', date: '2026-02-30'},
+    {source: 'owner_reported', date: 'not a date'},
+    {source: 'unknown', date: '2026-10-01'},
+    {source: 'owner_reported', date: 1234}
+  ]) {
+    const {elements} = await display(['DATA', null], {...fresh, citedby_verification: verification});
+    assert.equal(elements['citation-updated'].textContent, 'Updated 2026-09-30');
+  }
+});

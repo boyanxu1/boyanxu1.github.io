@@ -169,6 +169,27 @@ class RefreshTests(unittest.TestCase):
         fetcher.assert_not_called()
         self.assertEqual(self.previous.read_text(), '{broken')
 
+    def test_failed_refresh_preserves_owner_reported_total_and_original_paper_date(self):
+        self.data['citedby'] = 545
+        self.data['citedby_verification'] = {'source': 'owner_reported', 'date': '2026-10-01'}
+        self.previous.write_text(json.dumps(self.data))
+        original = self.previous.read_bytes()
+        fetcher = MagicMock(side_effect=crawler.RefreshError('http_403'))
+        self.assertEqual(crawler.refresh(self.output, self.previous, ID, fetcher), 2)
+        self.assertEqual(self.previous.read_bytes(), original)
+        status = json.loads((self.output / 'gs_status.json').read_text())
+        self.assertEqual(status['last_success'], '2026-01-01T00:00:00+00:00')
+        self.assertFalse((self.output / 'gs_data.json').exists())
+
+    def test_successful_full_fetch_supersedes_manual_total_provenance(self):
+        self.data['citedby_verification'] = {'source': 'owner_reported', 'date': '2026-10-01'}
+        self.previous.write_text(json.dumps(self.data))
+        new_data = crawler.parse_profile(HTML, ID)
+        self.assertEqual(crawler.refresh(self.output, self.previous, ID, lambda _: new_data), 0)
+        written = json.loads((self.output / 'gs_data.json').read_text())
+        self.assertNotIn('citedby_verification', written)
+        self.assertEqual(written['updated'], new_data['updated'])
+
 
 if __name__ == '__main__':
     unittest.main()
