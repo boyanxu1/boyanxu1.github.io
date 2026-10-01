@@ -11,6 +11,17 @@
     var updated = document.getElementById('citation-updated');
     if (!updated) return;
     var fetched = Date.parse(data.updated);
+    var manual = data.citedby_verification;
+    var manualDate = manual && typeof manual.date === 'string' ? manual.date : '';
+    var verified = Date.parse(manualDate + 'T00:00:00Z');
+    if (manual && manual.source === 'owner_reported' && /^\d{4}-\d{2}-\d{2}$/.test(manualDate) &&
+        Number.isFinite(verified) && new Date(verified).toISOString().slice(0, 10) === manualDate) {
+      updated.textContent = 'Total updated manually ' + manualDate;
+      updated.title = 'Total provided by profile owner. Per-paper counts last fetched ' +
+        (Number.isFinite(fetched) ? data.updated.slice(0, 10) : 'at an unknown time') + '.' +
+        (unavailable ? ' Latest automatic refresh unavailable.' : '');
+      return;
+    }
     if (!Number.isFinite(fetched)) {
       updated.textContent = 'Last update unknown';
       return;

@@ -51,6 +51,14 @@ also be reviewed and committed with its **actual observation timestamp**. Do
 not substitute another provider's count under the Google Scholar label or reset
 an old snapshot's timestamp.
 
+For an owner-reported manual total, update only `citedby` and the badge's
+`message`, and add `citedby_verification` with `source: "owner_reported"` and the
+actual observation `date` in `YYYY-MM-DD` format. Keep `publications`, `updated`,
+and the automatic refresh status unchanged. The homepage labels the total as
+manually updated and separately identifies the older per-paper fetch date in
+its tooltip. A failed automatic fetch preserves this manual total; a successful
+complete fetch replaces it and removes the manual provenance.
+
 ## Checks and operation
 
 ```sh
