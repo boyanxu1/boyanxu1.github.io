@@ -33,7 +33,6 @@ My research connects natural language, structured data, and causal reasoning:
 I welcome collaboration with motivated students and industry partners on Text-to-SQL agents, causality-enhanced AI, and ABSA. Feel free to email me with your CV and a short statement of interest.
 
 ## 🔥 News
-- *2026.09*: &nbsp;🎉🎉 [**OmniMER**](https://arxiv.org/abs/2512.19379) has been accepted by **IEEE Transactions on Big Data (TBD)**.
 - *2026.07*: &nbsp;[**CDFM**](https://github.com/DMIRLAB-Group/CDFM), a causal discovery foundation model for zero-shot structural inference, is now available. [Paper](https://arxiv.org/abs/2607.11508) · [Model weights](https://huggingface.co/DMIRLAB/CDFM).
 - *2026.04*: &nbsp;🎉🎉 4 papers(2 main and 2 findings) under my supervision have been accepted by ACL 2026.
 - *2025.12*: &nbsp;🎉🎉 We introduce a new benchmark for Indonesian Multimodal Emotion Recognition, accompanying OmniMER.
@@ -216,7 +215,7 @@ Bingfeng Chen, Qihan Ouyang, Yongqi Luo, **Boyan Xu†**, Ruichu Cai, Zhifeng Ha
 - [What Gets Activated: Uncovering Domain and Driver Experts in MoE Language Models](https://arxiv.org/pdf/2601.10159), Guimin Hu, Meng Li, Qiwei Peng, Lijie Hu, **Boyan Xu**, Ruichu Cai (Preprint)
 - [ENTRA: Entropy-Based Redundancy Avoidance in Large Language Model Reasoning](https://arxiv.org/pdf/2601.07123), Ruichu Cai, Haopeng Du, Qingwen Lin, Yutong Chen, Zijian Li, **Boyan Xu†** (Preprint)
 - [CMCTS: A Constrained Monte Carlo Tree Search framework for mathematical reasoning in large language model](https://arxiv.org/pdf/2502.11169), Qingwen Lin, **Boyan Xu**, Guimin Hu, Zijian Li, Zhifeng Hao, Keli Zhang, Ruichu Cai (Applied Intelligence) · [Code](https://github.com/pass-lin/CMCTS)
-- [OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation](https://arxiv.org/pdf/2512.19379), **Xueming Yan** *, **Boyan Xu** * Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang (IEEE TBD, accepted) · [Dataset](https://github.com/yanxm01/INDOMER)
+- [OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation](https://arxiv.org/pdf/2512.19379), **Xueming Yan** *, **Boyan Xu** * Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang (Preprint) · [Dataset](https://github.com/yanxm01/INDOMER)
 - [Text-to-SQL as Dual-State Reasoning: Integrating Adaptive Context and Progressive Generation](https://arxiv.org/pdf/2511.21402), Zhifeng Hao, Qibin Song, Ruichu Cai, **Boyan Xu†** (Preprint)
 - [Causal View of Time Series Imputation: Some Identification Results on Missing Mechanism](https://arxiv.org/pdf/2505.07180), Ruichu Cai, Kaitao Zheng, Zijian Li, Junxian Huang, Zhengming Chen, **Boyan Xu**, Zhifeng Hao (IJCAI 2025)
 - [Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting](https://arxiv.org/abs/2505.24710), Wei Chen, Jiahao Zhang, Haipeng Zhu, **Boyan Xu**, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai (IJCAI 2025) · [Code](https://github.com/DMIRLAB-Group/Causal-aware_LLMs)
