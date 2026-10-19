@@ -44,6 +44,12 @@ I welcome collaboration with motivated students and industry partners on Text-to
 - *2024.05*: &nbsp;🎉🎉 The paper I supervised, "S2GSL: Incorporating Segment to Syntactic Enhanced Graph Structure Learning for Aspect-based Sentiment Analysis" has been accepted by ACL 2024 Main.
 - *2023.04*: &nbsp;🎉🎉 My leader launched **Chat2DB**, a conversational AI product designed to access private databases or tabular data. With **Chat2DB**, users don't need to learn technical principles or use specialized tools. By simply uploading their data or database and describing their requirements in the chatbox, they can receive results within seconds.
 
+## 🤝 Academic Service
+
+- **Area Chair:** ACL Rolling Review (October 2026).
+- **Conference Reviewer:** ICLR, NeurIPS, ICML, AAAI, ACL.
+- **Reviewer Recognition:** ICML 2026 Silver Reviewer Award.
+
 ## 📝 Publications
 †Corresponding Author, *Equal Contribution
 
