@@ -47,7 +47,7 @@ I welcome collaboration with motivated students and industry partners on Text-to
 ## 🤝 Academic Service
 
 - **Area Chair:** ACL Rolling Review.
-- **Conference Reviewer:** ICLR, NeurIPS, ICML, AAAI, ACL.
+- **Conference Reviewer:** ICLR, NeurIPS, ICML, AAAI.
 - **Reviewer Recognition:** ICML 2026 Silver Reviewer Award.
 
 ## 📝 Publications
