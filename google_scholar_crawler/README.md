@@ -70,7 +70,7 @@ node --test google_scholar_crawler/tests/test_display.cjs
 All tests are offline with synthetic fixtures. Pushes and pull requests run
 these tests only; they neither contact Scholar nor update the published data branch.
 
-The scheduled citation refresh runs on `main` once a week, every Monday at
+The scheduled citation refresh runs on `main` once a month, on the first day at
 08:17 UTC (16:17 China Standard Time), or on an authorized manual dispatch.
 `GOOGLE_SCHOLAR_ID` is read from the existing repository secret,
 falling back to this site's public profile ID. No new account/key is required.
