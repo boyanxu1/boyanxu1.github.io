@@ -26,7 +26,7 @@ AcadHomepage
 - [作者的个人主页](https://rayeren.github.io/)
 
 ## 主要特点
-- **自动更新谷歌学术引用**: 借助谷歌学术爬虫和github action功能，本仓库可以自动更新作者的引用数和论文引用数。
+- **注明日期的谷歌学术引用**：本站按作者确认的总数手动更新，并保留最后一次完整抓取的逐篇数据；自动抓取已停用。
 - **支持谷歌Analytics**: 你可以通过简单的配置来实现使用谷歌Analytics跟踪网页的流量。
 - **响应式的**: 此主页会针对不同的屏幕尺寸自动调整布局。
 - **美观而简约**: 此主页美观而简约，适合个人学术主页的搭建。
@@ -35,10 +35,7 @@ AcadHomepage
 ## 快速开始
 
 1. Fork本仓库到`USERNAME/USERNAME.github.io`，其中`USERNAME`是你的github用户名。
-1. 配置谷歌学术引用爬虫：
-    1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
-    1. 在github本仓库页面的`Settings -> Secrets -> Actions -> New repository secret`中，添加`GOOGLE_SCHOLAR_ID`变量：`name=GOOGLE_SCHOLAR_ID`、`value=SCHOLAR_ID`。
-    1. 在github本仓库页面的`Action`中，点击*"I understand my workflows, go ahead and enable them"*启用workflows by clicking *"。本action将会谷歌学术引用的统计量数据`gs_data.json`到本仓库的`google-scholar-stats`分支中。每次修改main分支的内容会触发该action。本action也会在每天08:00 UTC定时触发。
+1. 按照[手动总引用更新说明](../google_scholar_crawler/README.md)，每月由作者确认总数后更新。持续出现 HTTP 403 的自动抓取已停用，GitHub Actions 只运行离线测试。
 1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
 1. 修改主页配置文件[_config.yml](../_config.yml):
     1. `title`: 主页标题

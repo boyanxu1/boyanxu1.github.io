@@ -70,18 +70,14 @@ node --test google_scholar_crawler/tests/test_display.cjs
 All tests are offline with synthetic fixtures. Pushes and pull requests run
 these tests only; they neither contact Scholar nor update the published data branch.
 
-The scheduled citation refresh runs on `main` once a month, on the first day at
-08:17 UTC (16:17 China Standard Time), or on an authorized manual dispatch.
-`GOOGLE_SCHOLAR_ID` is read from the existing repository secret,
-falling back to this site's public profile ID. No new account/key is required.
+## Current update policy
 
-To run locally after obtaining the existing data-branch snapshot:
+Automated live fetching is disabled after repeated HTTP 403 responses. The
+workflow runs offline tests only; it has no schedule, manual dispatch, or
+publishing job. Citation totals are updated from the owner's monthly confirmation
+using the manual-total format above. No browser scraping replacement is enabled.
 
-```sh
-python google_scholar_crawler/main.py --previous-data citation-data/gs_data.json
-python google_scholar_crawler/main.py --report
-```
-
-Exit 0 means fresh data; exit 2 means no fresh data. Keep the previous-data file
-outside the output directory. Inspect the reason before trying again, and stop
-on access-denied or challenge responses. Do not repeatedly rerun a blocked job.
+The crawler source and offline fixtures are retained for reference, not scheduled
+operation. Do not rerun the blocked fetch without a separately authorized,
+permitted access change. Published data and the last automatic attempt status
+remain intact.
